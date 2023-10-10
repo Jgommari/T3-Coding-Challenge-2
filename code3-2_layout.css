@@ -52,10 +52,7 @@ body{
 /* Grid Styles for Page Body */
 header{
   grid-column: 1/ -1;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+ }
 article#intro{
   grid-column: span 2/ auto;
   grid-row: span 2/ auto;
@@ -66,5 +63,4 @@ article#main{
 }
 footer{
   grid-column: span 2/ auto;
-  grid-row: span 5/ auto;
 }
